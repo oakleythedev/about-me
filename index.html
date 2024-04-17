@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oakley the Dev</title>
+    <!-- Adding font awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Styling for the page -->
+    <style>
+        /* Styling for the body */
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #111;
+            color: #0f0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        /* Styling for the main container */
+        .container {
+            max-width: 600px;
+            padding: 20px;
+            border: 2px solid #ff1744;
+            border-radius: 10px;
+            background-color: #000;
+            box-shadow: 0 0 10px #ff1744;
+        }
+
+        /* Styling for the headings */
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #ff1744;
+        }
+
+        /* Styling for paragraphs */
+        p {
+            font-size: 1.2em;
+            line-height: 1.6em;
+            margin-bottom: 20px;
+        }
+
+        /* Styling for unordered lists */
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        /* Styling for list items */
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        /* Styling for links */
+        a {
+            color: #0f0;
+            text-decoration: none;
+            transition: color 0.3s; /* Adding transition for link hover effect */
+        }
+
+        /* Styling for link hover */
+        a:hover {
+            color: #0ff;
+        }
+
+        /* Styling for icons */
+        .icon {
+            font-size: 1.2em;
+            margin-right: 10px;
+            transition: transform 0.3s; /* Adding transition for icon hover effect */
+        }
+
+        /* Styling for cursor animation */
+        .cursor {
+            animation: blink 1s linear infinite;
+        }
+
+        /* Keyframes for cursor animation */
+        @keyframes blink {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        /* Styling for glitch effect */
+        .glitch {
+            position: relative;
+            display: inline-block;
+        }
+
+        /* Styling for placeholder boxes */
+        .placeholder {
+            border: 1px dashed #0f0;
+            padding: 10px;
+            margin: 10px 0;
+            color: #0f0;
+            transition: transform 0.3s; /* Adding transition for box hover effect */
+        }
+
+        /* Hover animation for placeholder boxes */
+        .placeholder:hover {
+            transform: scale(1.05);
+        }
+
+        /* Styling for red letters */
+        .red {
+            color: #ff1744;
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        /* Styling for notes */
+        .notes {
+            font-size: 0.8em;
+            margin-top: 20px;
+            text-align: left;
+            color: #888;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Main container -->
+    <div class="container">
+        <!-- Main heading with glitch effect -->
+        <h1>Oak<span class="glitch" data-text="ley">ley</span> the Dev <span class="cursor">_</span></h1>
+        <!-- Introduction paragraph -->
+        <p>Welcome to my developer zone! I'm Oakley, a coding maverick on a quest to create awesome digital experiences.</p>
+        <!-- Heading for what I'm up to with glitch effect -->
+        <h2 class="glitch" data-text="What am I up to?">What am I up to?</h2>
+        <!-- Placeholder box for recent coding project -->
+        <div class="placeholder">Coding a Discord Bot - Trying to teach it to say "Hello World!" but it keeps saying "Hello Discord!" instead.</div>
+        <!-- Placeholder box for upcoming tech insight -->
+        <div class="placeholder">Working on a Hacked Client - Finding new ways to exploit the game while trying not to get banned.</div>
+        <!-- Heading for socials with glitch effect -->
+        <h2 class="glitch" data-text="Socials">Socials</h2>
+        <!-- List of social links with font awesome icons -->
+        <ul>
+            <li><i class="fab fa-github icon"></i><a href="https://github.com/oakley-dev" target="_blank">GitHub Profile</a></li>
+            <li><i class="fab fa-twitter icon"></i><a href="https://twitter.com/oakley_dev" target="_blank">Twitter Profile</a></li>
+            <li><i class="fab fa-discord icon"></i><a href="https://discord.gg/oakley_dev" target="_blank">Discord Server</a></li>
+        </ul>
+        <!-- Thank you message -->
+        <p>Thank you for coming to my website.</p>
+    </div>
+
+    <!-- Script to print messages in console -->
+    <script>
+        // Console messages with red letters
+        console.log('%cMADE BY OFFICIAL', 'color: #ff1744; font-size: 20px;');
+        console.log('%cOAKLEY IS COOL', 'color: #ff1744; font-size: 20px;');
+        console.log('%cFOLLOW OAKLEY', 'color: #ff1744; font-size: 20px;');
+
+        // Console jokes
+        console.log('%cWhy was the JavaScript developer sad? Because he didn\'t know how to \'null\' his feelings.', 'font-size: 12px; color: #888;');
+        console.log('%cWhy was the computer cold? It left its Windows open.', 'font-size: 12px; color: #888;');
+        console.log('%cWhy did the programmer quit his job? Because he didn\'t get arrays.', 'font-size: 12px; color: #888;');
+    </script>
+
+</body>
+
+</html>
