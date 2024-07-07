@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oakley The Dev</title>
     <link rel="icon" href="cannabis-solid.svg" type="image/x-icon">
+    <meta property="og:title" content="Oakley's About Me">
+    <meta property="og:description" content="Keep calm, and toke on..">
+    <meta property="og:image" content="https://example.com/awesome-project-image.jpg">
+    <meta property="og:url" content="https://oakleythedev.github.io/about-me/">
     <!-- Adding font awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <!-- Adding Google Fonts for custom fonts -->
@@ -26,7 +30,23 @@
             background-image: url('https://www.transparenttextures.com/patterns/asfalt-light.png');
             background-color: #1a1a1a;
         }
+        .embed-container {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.8);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            color: #4caf50;
+        }
 
+        .embed-container img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 10px auto;
+            border-radius: 5px;
+        }
         .container {
             max-width: 800px;
             padding: 30px;
@@ -52,10 +72,13 @@
             list-style: none;
             padding: 0;
             margin: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
         }
 
         ul li {
-            margin-bottom: 15px;
+            display: inline-block;
         }
 
         a {
@@ -70,7 +93,6 @@
 
         .icon {
             font-size: 1.8em;
-            margin-right: 15px;
             transition: transform 0.3s;
         }
 
@@ -141,9 +163,9 @@
         <h2>Socials</h2>
         <!-- List of social links with font awesome icons -->
         <ul>
-            <li><i class="fab fa-github icon"></i><a href="https://github.com/oakley-dev" target="_blank">GitHub Profile</a></li>
-            <li><i class="fab fa-twitter icon"></i><a href="https://twitter.com/oakley_dev" target="_blank">Twitter Profile</a></li>
-            <li><i class="fab fa-discord icon"></i><a href="https://discord.gg/oakley_dev" target="_blank">Discord Server</a></li>
+            <li><i class="fab fa-github icon"></i><a href="https://github.com/oakleythedev" target="_blank"> GitHub</a></li>
+            <li><i class="fab fa-xing icon"></i><a href="https://x.com/?" target="_blank"> X / Twitter</a></li>
+            <li><i class="fab fa-discord icon"></i><a href="https://discord.gg/HwFQq4Jdpx" target="_blank"> Discord</a></li>
         </ul>
         <!-- Thank you message -->
         <p>Thanks for dropping by. Stay lit and keep coding!</p>
